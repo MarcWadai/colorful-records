@@ -1,10 +1,5 @@
-Hugo is the world’s fastest framework for building websites. It is written in Go.
+About 
+=========
 
-It makes use of a variety of open source projects including:
-
-https://github.com/russross/blackfriday
-https://github.com/alecthomas/chroma
-https://github.com/muesli/smartcrop
-https://github.com/spf13/cobra
-https://github.com/spf13/viper
-Learn more and contribute on GitHub.
+Colorful records is made with love by **J.C**.
+Former mechanical engineer, passionate about music and composition. Colorful records goal is to innovate in this industry 
