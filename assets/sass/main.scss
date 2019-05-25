@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+.about_back {
+    background: url(/images/about_back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.main_back {
+    background: url(/images/acceuil_back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about_header {
+    background: #82827F
+}
+
+.about_footer {
+    position: absolute;
+    bottom: 0;
+}

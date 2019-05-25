@@ -37,10 +37,10 @@ theme = "hello_friend"
 
 [languages]
   [languages.en]
-    title = "Colorful Records <3"
+    title = "Colorful Records"
     subtitle = "A simple theme for Hugo"
     keywords = ""
-    copyright = "Colorful Records"
+    copyright = "Colorful Records Inc."
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]

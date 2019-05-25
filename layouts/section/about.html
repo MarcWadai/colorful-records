@@ -1,0 +1,36 @@
+<!-- 
+{{ define "header" }}
+    <div class="about_header">
+        {{ partial "header.html" . }}
+    </div>
+    
+{{ end }}
+{{ define "main" }}
+
+{{ end }} -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    <div class="about_back">
+        {{ partial "header.html" . }}
+
+        <div class="content">
+            {{ .Content}}
+        </div>
+        <div class="about_footer">
+                {{ partial "footer.html" . }}
+        </div>
+
+    </div>
+    {{ partial "javascript.html" . }}
+</body>
+
+</html>
