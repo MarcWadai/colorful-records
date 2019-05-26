@@ -20,20 +20,24 @@ theme = "hello_friend"
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+    name = "instagram"
+    url  = "https://www.instagram.com/sayntsphere/"
 
+  [[params.social]]
+    name = "youtube"
+    url  = "https://www.youtube.com/channel/UC0-EoKJQDAp2QhyLJYnVr7w"
+
+  [[params.social]]
+    name = "soundcloud"
+    url  = "https://soundcloud.com/sayntsphere"
+  
+  [[params.social]]
+    name = "facebook"
+    url  = "https://www.facebook.com/sayntsphere/"
+  
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "info@colorfulrecords.com"
 
 [languages]
   [languages.en]
@@ -42,6 +46,7 @@ theme = "hello_friend"
     keywords = ""
     copyright = "Colorful Records Inc."
     readOtherPosts = "Read other posts"
+    homeSubtitle = "INC ."
 
     [languages.en.params.logo]
       logoText = "Colorful Records"
@@ -58,9 +63,17 @@ theme = "hello_friend"
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
+        identifier = "publications"
+        name = "Publications"
+        url = "/publications"
+      [[languages.en.menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/contact"
+      [[languages.en.menu.main]]
+        identifier = "events"
+        name = "Events"
+        url = "/events"
 
 # And you can even create generic menu
 [menu]
@@ -68,6 +81,14 @@ theme = "hello_friend"
     identifier = "about"
     name       = "About"
     url        = "/about"
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications"  
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events"
   [[menu.main]]
     identifier = "contact"
     name       = "Contact"

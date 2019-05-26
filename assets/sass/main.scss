@@ -30,3 +30,12 @@ body {
     position: absolute;
     bottom: 0;
 }
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    margin: 20px;
+}
