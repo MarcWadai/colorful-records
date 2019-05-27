@@ -9,8 +9,8 @@ theme = "hello_friend"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
-  keywords = "homepage, blog, science, informatics, development, programming"
+  description = "Homepage for Colorful records by Saynt"
+  keywords = "homepage, Colorful records, Saynt, records, music, producer"
   images = [""]
 
   # Directory name of your blog content (default is `content/posts`)
@@ -42,7 +42,7 @@ theme = "hello_friend"
 [languages]
   [languages.en]
     title = "Colorful Records"
-    subtitle = "A simple theme for Hugo"
+    subtitle = "Saynt"
     keywords = ""
     copyright = "Colorful Records Inc."
     readOtherPosts = "Read other posts"
