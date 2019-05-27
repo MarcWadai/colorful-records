@@ -1,0 +1,26 @@
+{{ define "main" }}
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+        {{ partial "head.html" . }}
+    </head>
+    
+    <body>
+        <div style="display: flex; justify-content: space-around; width: 70%">
+            <h1> CONTACT</h1>
+            <div style="font-size: large">
+                    <p>{{.Params.address1}}</p>
+                    <p>{{.Params.address2}}</p>
+                    <p>{{.Params.email}}</p>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+    </html>
+{{ end }}
