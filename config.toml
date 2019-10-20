@@ -46,10 +46,10 @@ theme = "hello_friend"
     keywords = ""
     copyright = "Colorful Records Inc."
     readOtherPosts = "Read other posts"
-    homeSubtitle = "INC ."
+    homeSubtitle = "I N C ."
 
     [languages.en.params.logo]
-      logoText = "Colorful Records"
+      logoText = "Colorful Records®"
       logoHomeLink = "/"
     # or
     #

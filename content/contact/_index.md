@@ -1,7 +1,6 @@
 +++
 
-address1 = "Paris, France"
-address2 = "& Worldwide"
+address = "Worldwide"
 email = "info@colorfulrecords.com"
 
 +++
