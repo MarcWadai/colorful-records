@@ -37,7 +37,7 @@ theme = "hello_friend"
   
   [[params.social]]
     name = "email"
-    url  = "info@colorfulrecords.com"
+    url  = "mailto:info@colorfulrecords.com"
 
 [languages]
   [languages.en]
